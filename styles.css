@@ -1,0 +1,65 @@
+html{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+.header{
+    height: 60px;
+    line-height: 20px;
+    padding:20px;
+    background-color: orange
+}
+
+.h1{
+    float: left;
+    margin: 0px;
+}
+
+.navigation{
+    float: right;
+    padding: 0px;
+    margin: 0px;
+    position: relative; 
+    top: -45px;
+}
+
+li{
+    display: inline-block;
+    margin-left: 20px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.main{
+    margin: 0px;
+    position: relative; 
+    float: left; 
+    top: -5px;
+}
+
+.content{
+    width: 70%; 
+    float: left; 
+    min-height: 500px;  
+    position: relative;
+    background-color: lightgray 
+}
+
+.sidebar{
+    width: 30%; 
+    float: left;  
+    min-height: 500px;
+    position: relative;
+    background-color: darkgrey 
+}
+
+p{ 
+    margin: 20px; 
+}
